@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <a href="index.html">Inicio</a>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <form method="post" action="Resultado.html" class="formRegis">
+        <h3>Pagina de Registro </h3>
+        <div class="first name">
+            <label for="first name">Nombre</label>
+            <input class="entrada" type="text" name="First name" id="first name">
+        </div>
+
+        <div class="last name">
+            <label for="last name">Apellido</label>
+            <input class="entrada" type="text" name="last name" id="last name">
+        </div>
+
+        
+
+        <div class="genero">
+            <label for="genero">Género: </label>
+            <input class="entrada"type="radio" name="genero" value="masculino">Masculino
+            <input class="entrada"type="radio" name="genero" value="femenino">Femenino
+        </div>
+
+
+        <div class="correo">
+            <label for="correo">Correo</label>
+            <input class="entrada"type="email" name="correo" placeholder="Ingrese su correo electrónico">
+        </div>
+
+        
+        <div class="pass">
+            <label for="pass">Contraseña</label>
+            <input class="entrada"type="password" id="pass" name="pass">
+        </div>
+        
+
+        <div class="fecha">
+            <label for="fecha">Fecha</label>
+            <input class="entrada"type="date" name="fecha" id="fecha"><br>
+        </div>
+
+        <div class="domicilio">
+            <label for="domicilio">Domicilio</label>
+            
+            <textarea name="domicilio" id="domicilio" cols="30" rows="5"></textarea><br><br>
+        </div>
+
+        <div class="enviar">
+            <input class="entrada"type="submit" value="enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>

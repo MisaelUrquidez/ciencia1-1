@@ -1,0 +1,21 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+.formRegis{
+
+    background-color: beige;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.formRegis h3 {
+
+    font-size: 28px;
+    color: rgb(243, 132, 6);
+
+}
