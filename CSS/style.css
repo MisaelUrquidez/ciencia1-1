@@ -6,7 +6,7 @@
 }
 .formRegis{
 
-    background-color: beige;
+    background-color: rgb(109, 239, 243);
     width: 400px;
     padding: 50px;
     margin: auto;
@@ -16,6 +16,28 @@
 .formRegis h3 {
 
     font-size: 28px;
-    color: rgb(243, 132, 6);
+    color: rgb(24, 101, 163);
 
+}
+.entrada{
+
+    width: 350px;
+    padding: 1px;
+    border-radius: 6px;
+    border: 6px snow rgb(24, 101, 163);
+    background-color: aliceblue;
+    margin-bottom: 1px;
+}
+
+.Resultado {
+    text-align: center;
+}
+
+.enviar {
+    size: 20px;
+    border: 4px solid rgb(24, 101, 163);
+    border-radius: 6px;
+    margin-top: 1px;
+    background-color: rgb(86, 217, 250);
+    font-size: 10px;
 }
